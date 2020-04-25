@@ -1,0 +1,110 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background: linear-gradient(1200deg, #000, #202020) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.generated-words{
+    width: 380px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 0 0;
+}
+.generated-words p{
+    font-size: 1.7rem;
+    max-width: 350px;
+}
+.user-input{
+    height: 60px;
+    width: 380px;
+    padding: 0 16px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    margin: 5px 0 0 0;
+}
+.time{
+    color:#fff;
+    font-size: 2rem;
+    margin: 20px 0 0 0;
+}
+.error{
+    -webkit-box-shadow: 0px 0px 24px -4px rgba(212,32,32,1);
+    -moz-box-shadow: 0px 0px 24px -4px rgba(212,32,32,1);
+    box-shadow: 0px 0px 24px -4px rgba(212,32,32,1);
+
+}
+.instructions{
+    color:white;
+    max-width: 380px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Economica', sans-serif;
+}
+.scores{
+    color:white;
+    font-size: 1.1rem;
+    padding: 20px 0;
+    font-family: 'Economica', sans-serif;
+}
+.errors{
+    padding: 5px 0 0 0;
+}
+.result-container{
+    display: none;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-evenly;
+}
+.result{
+    background: white;
+    padding: 40px 30px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+}
+.play-again{
+    height: 60px;
+    background: white;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none
+}
+.play-again:hover{
+    background: #313131;
+    color:white;
+    transition: all .2s ease;
+}
+footer{
+    position: absolute;
+    bottom:30px;
+    font-family: 'Economica', sans-serif;
+    font-size:28px;
+    color:white;
+}
+footer a{
+    color:#fff;
+    font-family: 'Economica', sans-serif;
+    text-decoration: none;
+}

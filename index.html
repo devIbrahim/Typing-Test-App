@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test | Syed Anees Ibrahim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Economica&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+
+    <div class="app">
+
+        <p class="instructions">
+            Timer will start as soon as you start typing. Press the spacebar to get the next word.
+        </p>
+
+        <div class="generated-words">
+            <p class="gen-text">
+                
+            </p>
+        </div>
+
+        <input type="text" class="user-input" placeholder="Type here...">
+        
+        <p class="time"><span class="remaining-time">60</span>s</p>
+
+        <div class="scores">
+            <p class="correct">Words Typed: <span class="correct-span">0</span></p>
+            <p class="errors">Errors: <span class="errors-span">0</span></p>
+        </div>
+
+    </div>
+
+    <div class="result-container">
+        <div class="result">
+            <p class="words-typed">Speed : <span class="totalWords">0</span> wpm</p>
+            <p class="errors-typed">Total Errors: <span class="totalErrors">0</span></p>
+            <p class="accuracy">Accuracy: <span class="accuracySpan">100</span>%</p>
+            <p class="resultTime">Time: <span class="timeSpan">60</span>s</p>
+        </div>
+        <button class="play-again">Play Again</button>
+    </div>
+    
+
+    <footer>
+        Designer & Developer : <a target="_blank" href="https://devibrahim.imfast.io">Syed Anees Ibrahim</a>
+        <a target="_blank" href="https://github.com/devIbrahim"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a target="_blank" href="mailto:syedaneesibrahom@gmail.com" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
